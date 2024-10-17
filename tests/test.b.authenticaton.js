@@ -82,7 +82,7 @@ describe('Test user login/logout', () => {
             .post("/login")
             .send(
                 {
-                    email: good_user_data[0].email,
+                    username: good_user_data[0].username,
                     password: 'badpassword'
                 }
             )

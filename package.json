@@ -36,7 +36,9 @@
     "joi": "^17.10.2",
     "mocha": "^10.2.0",
     "morgan": "^1.10.0",
-    "nodemon": "^3.0.1",
     "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
